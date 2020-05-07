@@ -1,0 +1,116 @@
+[
+    {
+      "id": 1,
+      "name": "Sass",
+      "icon": "Sass",
+      "category": "code",
+      "awesome": false
+    },
+    {
+      "id": 2,
+      "name": "Vue.js",
+      "icon": "Vue.js",
+      "category": "code",
+      "awesome": false
+    },
+    {
+      "id": 3,
+      "name": "Git",
+      "icon": "Git",
+      "category": "code",
+      "awesome": false
+    },
+    {
+      "id": 4,
+      "name": "Html",
+      "icon": "HTML5",
+      "category": "code",
+      "awesome": false
+    },
+    {
+      "id": 5,
+      "name": "Javascript",
+      "icon": "Javascript",
+      "category": "code",
+      "awesome": false
+    },
+    {
+      "id": 6,
+      "name": "Videography",
+      "icon": "fas fa-video",
+      "category": "film",
+      "awesome": true
+    },
+    {
+      "id": 7,
+      "name": "UX",
+      "icon": "fas fa-user-circle",
+      "category": "design",
+      "awesome": true
+    },
+    {
+      "id": 8,
+      "name": "Photoshop",
+      "icon": "Adobe Photoshop",
+      "category": "design",
+      "awesome": false
+    },
+    {
+      "id": 9,
+      "name": "Illustrator",
+      "icon": "Adobe Illustrator",
+      "category": "design",
+      "awesome": false
+    },
+    {
+      "id": 10,
+      "name": "Premiere Pro",
+      "icon": "Adobe Premiere",
+      "category": "film",
+      "awesome": false
+    },
+    {
+      "id": 11,
+      "name": "After Effects",
+      "icon": "Adobe After Effects",
+      "category": "film",
+      "awesome": false
+    },
+    {
+      "id": 12,
+      "name": "XD",
+      "icon": "Adobe XD",
+      "category": "design",
+      "awesome": false
+    },
+    {
+      "id": 13,
+      "name": "Green Sock",
+      "icon": "GreenSock",
+      "category": "code",
+      "awesome": false
+    },
+    {
+      "id": 14,
+      "name": "Vuetify",
+      "icon": "Vuetify",
+      "category": "code",
+      "awesome": false
+    },
+  
+    {
+      "id": 15,
+      "name": "Screenwriting",
+      "icon": "fas fa-scroll",
+      "category": "film",
+      "awesome": true
+    },
+  
+    {
+      "id": 16,
+      "name": "TV production",
+      "icon": "fas fa-tv",
+      "category": "film",
+      "awesome": true
+    }
+  ]

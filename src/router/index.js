@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Mywork from '../views/Mywork.vue'
+import Contact from '../views/Contact.vue'
+
 
 Vue.use(VueRouter)
 
@@ -8,7 +11,20 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    meta: {
+      title: 'Gerdur Design | Frontpage',
+    }
+  },
+  {
+    path: '/mywork',
+    name: 'Mywork',
+    component: Mywork
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   },
   {
     path: '/about',
@@ -27,3 +43,4 @@ const router = new VueRouter({
 })
 
 export default router
+

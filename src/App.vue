@@ -1,31 +1,45 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+      <portfolio-header></portfolio-header>
+      <portfolio-nav></portfolio-nav>
+      <v-content>
+        <router-view></router-view>
+      </v-content>
+      <portfolio-footer></portfolio-footer>
+  </v-app>  
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import header from './views/header.vue'
+import nav from './views/nav.vue'
+import footer from './views/footer'
+
+
+export default {
+  name: 'App',
+
+ components: {
+   'portfolio-header':header,
+   'portfolio-nav':nav,
+   'portfolio-footer':footer
+ },
+ 
+  data: () => ({
+    //
+  })
 }
+</script>
 
-#nav {
+<style lang="scss">
+  nav {
+ 
   padding: 30px;
-
   a {
-    font-weight: bold;
-    color: #2c3e50;
-
+    
+    color: #222222 !important;
     &.router-link-exact-active {
-      color: #42b983;
+      color: #8f8f8f !important;
+      font-weight: bold;
     }
   }
 }
