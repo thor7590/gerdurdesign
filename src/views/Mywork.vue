@@ -6,13 +6,13 @@
                     <img src="~@/assets/illustrator1.jpg">
                 </div>
                 <div id="box-2">
-                    <img src="~@/assets/illustrator.png">
+                    <img src="~@/assets/illustrator.jpg">
                 </div>
                 <div id="box-3">
                     <img src="~@/assets/logo.jpg">
                 </div>
                 <div id="box-4">
-                    <img src="~@/assets/photoshop.png">
+                    <img src="~@/assets/photoshop.jpg">
                 </div>
             </div>
         </section>
@@ -58,5 +58,8 @@
     object-fit: cover;
 }
 
+img {
+    
+}
 
 </style>
